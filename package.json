@@ -1,0 +1,26 @@
+{
+  "name": "photo-museum",
+  "version": "1.0.0",
+  "description": "WebGL Photography Portfolio - Interactive 3D Museum",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "webgl",
+    "three.js",
+    "photography",
+    "3d",
+    "museum"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
+  }
+} 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Museum - Interactive 3D Photography Portfolio</title>
+  <link rel="stylesheet" href="/src/styles/style.css">
+</head>
+<body>
+  <div id="canvas-container"></div>
+  
+  <div id="loading-screen">
+    <div class="loading-content">
+      <h1>Photo Museum</h1>
+      <div class="progress-bar-container">
+        <div class="progress-bar"></div>
+      </div>
+      <p class="loading-text">Loading experience...</p>
+    </div>
+  </div>
+  
+  <div id="ui-container">
+    <div id="photo-info" class="hidden">
+      <h2 id="photo-title"></h2>
+      <p id="photo-description"></p>
+      <p id="photo-metadata"></p>
+      <button id="fullscreen-btn">View Fullscreen</button>
+    </div>
+    
+    <div id="controls-info">
+      <p>Move: WASD or Arrow Keys | Look: Mouse | Zoom: Mouse Wheel</p>
+    </div>
+  </div>
+  
+  <!-- Debug panel for diagnosing movement issues -->
+  <div id="debug-panel">
+    <h3>Debug Controls</h3>
+    <button id="toggle-mode-btn">Toggle View Mode</button>
+    <button id="test-move-btn">Test Move</button>
+    <button id="direct-move-btn">Basic Movement</button>
+    <div id="key-status">
+      <p>W: <span id="key-w">❌</span></p>
+      <p>A: <span id="key-a">❌</span></p>
+      <p>S: <span id="key-s">❌</span></p>
+      <p>D: <span id="key-d">❌</span></p>
+    </div>
+    <div id="position-display">Position: 0,0,0</div>
+  </div>
+  
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html> 

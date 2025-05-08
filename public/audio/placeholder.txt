@@ -1,0 +1,10 @@
+This directory should contain the following audio files:
+
+1. ambient.mp3: Background ambient music for the museum
+2. whoosh.mp3: Sound effect for movement
+
+You can download or create these files and place them here. 
+The application will try to load them but will continue to work even if they're missing.
+
+For ambient sounds, consider using slow, atmospheric music.
+For the whoosh effect, a soft air movement sound works well. 
